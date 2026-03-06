@@ -1,0 +1,14 @@
+/* The form control will have black border and no box shadow */
+.form-control:focus {
+    color: #000000;
+    background-color: #f6f6f6;
+    border-color: #000;
+    outline: 1px solid black;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0);
+}
+
+.form-select:focus {
+    border-color: #000;
+    outline: 1px solid black;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0);
+}
